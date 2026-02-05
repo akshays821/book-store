@@ -5,9 +5,7 @@ const SearchAnimation = () => {
     const [animationData, setAnimationData] = useState(null);
 
     useEffect(() => {
-        // We are fetching a robust, free search animation JSON from a CDN 
-        // to avoid needing to download and store local assets for this demo.
-        // This is a common pattern for lightweight simple animations.
+        
         fetch('https://lottie.host/9e001844-c6bd-4228-b219-480929255869/g9L3wN7L2k.json')
             .then((res) => res.json())
             .then((data) => setAnimationData(data))

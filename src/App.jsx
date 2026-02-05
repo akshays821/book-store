@@ -54,7 +54,7 @@ function App() {
             setTimeout(() => {
               if (isMounted) fetchBooks(retryCount + 1);
             }, 1500); // Wait 1.5s and retry
-            return; // Exit this run
+            return; 
           }
 
           throw new Error(`Google API: ${response.status}`);

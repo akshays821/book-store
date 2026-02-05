@@ -3,8 +3,7 @@ import React from 'react';
 const CategorySection = ({ categories, activeCategory, onSelect }) => {
     return (
         <div className="flex overflow-x-auto overflow-y-hidden no-scrollbar gap-3 pb-2 -mx-4 px-4 sm:mx-0 sm:px-0 sm:flex-wrap">
-            {/* "All" button removed as requested */}
-
+            
             {categories.map((cat) => (
                 <button
                     key={cat}

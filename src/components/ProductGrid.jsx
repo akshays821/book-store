@@ -8,7 +8,6 @@ const BookCard = ({ book, onViewDetails }) => {
     const averageRating = volumeInfo.averageRating || (Math.random() * 1.5 + 3.5).toFixed(1); // Real rating or high-quality mock
     const ratingsCount = volumeInfo.ratingsCount || Math.floor(Math.random() * 100 + 10);
 
-    // Simplified price logic
     const price = (title.length * 0.5 + 10).toFixed(2);
 
     return (

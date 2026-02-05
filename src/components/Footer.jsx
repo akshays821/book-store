@@ -27,7 +27,6 @@ export default function Footer() {
                     </p>
                 </div>
 
-                {/* Neatly Aligned Columns (Main Content Row) */}
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 lg:gap-32 items-start">
 
                     {/* Column 1: Personal Details */}
